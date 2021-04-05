@@ -146,8 +146,8 @@
 		1C3ABA0F261A6AAC006D9C28 /* TvMaze */ = {
 			isa = PBXGroup;
 			children = (
-				1C3ABADD261AA0B1006D9C28 /* ShowDetailFlow */,
 				1C3ABA98261A79BF006D9C28 /* Extensions */,
+				1C3ABADD261AA0B1006D9C28 /* ShowDetailFlow */,
 				1C3ABA71261A74D2006D9C28 /* TvListFlow */,
 				1C3ABA6B261A7274006D9C28 /* Entitiy */,
 				1C3ABA4E261A6BFA006D9C28 /* Provider */,
