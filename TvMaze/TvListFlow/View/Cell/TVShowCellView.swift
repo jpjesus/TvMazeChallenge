@@ -41,8 +41,9 @@ class TVShowCellView: UICollectionViewCell {
     static var identifier = "TVShowCellView"
     
     override func prepareForReuse() {
-        super.prepareForReuse()
+        showLabel.text = ""
         showImage.image = nil
+        super.prepareForReuse()
     }
     
     override init(frame: CGRect) {
