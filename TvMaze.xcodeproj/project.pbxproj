@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		06D7E3A114C60189A0DEB2FB /* Pods_TvMazeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE032616F23DF62CD454E98 /* Pods_TvMazeTests.framework */; };
+		1C2D65A8261BED7B006CB815 /* tvMazeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C3ABA63261A6F57006D9C28 /* tvMazeData.json */; };
+		1C2D65AD261BEDB6006CB815 /* TVListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2D65AC261BEDB6006CB815 /* TVListTests.swift */; };
+		1C2D65BA261BFBC1006CB815 /* TvListIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2D65B9261BFBC1006CB815 /* TvListIntegrationTests.swift */; };
 		1C3ABA11261A6AAC006D9C28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3ABA10261A6AAC006D9C28 /* AppDelegate.swift */; };
 		1C3ABA13261A6AAC006D9C28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3ABA12261A6AAC006D9C28 /* SceneDelegate.swift */; };
 		1C3ABA15261A6AAC006D9C28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3ABA14261A6AAC006D9C28 /* ViewController.swift */; };
 		1C3ABA18261A6AAC006D9C28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C3ABA16261A6AAC006D9C28 /* Main.storyboard */; };
 		1C3ABA1A261A6AAE006D9C28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C3ABA19261A6AAE006D9C28 /* Assets.xcassets */; };
 		1C3ABA1D261A6AAE006D9C28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C3ABA1B261A6AAE006D9C28 /* LaunchScreen.storyboard */; };
-		1C3ABA28261A6AAE006D9C28 /* TvMazeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3ABA27261A6AAE006D9C28 /* TvMazeTests.swift */; };
 		1C3ABA33261A6AAE006D9C28 /* TvMazeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3ABA32261A6AAE006D9C28 /* TvMazeUITests.swift */; };
 		1C3ABA53261A6C0C006D9C28 /* TvMazeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3ABA52261A6C0C006D9C28 /* TvMazeProvider.swift */; };
 		1C3ABA64261A6F57006D9C28 /* tvMazeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C3ABA63261A6F57006D9C28 /* tvMazeData.json */; };
@@ -55,6 +57,8 @@
 /* Begin PBXFileReference section */
 		08EE638937E3899E1C055874 /* Pods-TvMaze.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvMaze.debug.xcconfig"; path = "Target Support Files/Pods-TvMaze/Pods-TvMaze.debug.xcconfig"; sourceTree = "<group>"; };
 		1226307E3643A7F1B93DE2F6 /* Pods-TvMaze.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TvMaze.release.xcconfig"; path = "Target Support Files/Pods-TvMaze/Pods-TvMaze.release.xcconfig"; sourceTree = "<group>"; };
+		1C2D65AC261BEDB6006CB815 /* TVListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVListTests.swift; sourceTree = "<group>"; };
+		1C2D65B9261BFBC1006CB815 /* TvListIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvListIntegrationTests.swift; sourceTree = "<group>"; };
 		1C3ABA0D261A6AAC006D9C28 /* TvMaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TvMaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C3ABA10261A6AAC006D9C28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C3ABA12261A6AAC006D9C28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,7 +68,6 @@
 		1C3ABA1C261A6AAE006D9C28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C3ABA1E261A6AAE006D9C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C3ABA23261A6AAE006D9C28 /* TvMazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TvMazeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C3ABA27261A6AAE006D9C28 /* TvMazeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvMazeTests.swift; sourceTree = "<group>"; };
 		1C3ABA29261A6AAE006D9C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C3ABA2E261A6AAE006D9C28 /* TvMazeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TvMazeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C3ABA32261A6AAE006D9C28 /* TvMazeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvMazeUITests.swift; sourceTree = "<group>"; };
@@ -167,8 +170,9 @@
 			isa = PBXGroup;
 			children = (
 				1C3ABA62261A6F43006D9C28 /* Resources */,
-				1C3ABA27261A6AAE006D9C28 /* TvMazeTests.swift */,
 				1C3ABA29261A6AAE006D9C28 /* Info.plist */,
+				1C2D65AC261BEDB6006CB815 /* TVListTests.swift */,
+				1C2D65B9261BFBC1006CB815 /* TvListIntegrationTests.swift */,
 			);
 			path = TvMazeTests;
 			sourceTree = "<group>";
@@ -360,6 +364,7 @@
 					};
 					1C3ABA22261A6AAE006D9C28 = {
 						CreatedOnToolsVersion = 12.1;
+						LastSwiftMigration = 1210;
 						TestTargetID = 1C3ABA0C261A6AAC006D9C28;
 					};
 					1C3ABA2D261A6AAE006D9C28 = {
@@ -393,6 +398,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C2D65A8261BED7B006CB815 /* tvMazeData.json in Resources */,
 				1C3ABA1D261A6AAE006D9C28 /* LaunchScreen.storyboard in Resources */,
 				1C3ABA1A261A6AAE006D9C28 /* Assets.xcassets in Resources */,
 				1C3ABA18261A6AAC006D9C28 /* Main.storyboard in Resources */,
@@ -548,7 +554,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C3ABA28261A6AAE006D9C28 /* TvMazeTests.swift in Sources */,
+				1C2D65BA261BFBC1006CB815 /* TvListIntegrationTests.swift in Sources */,
+				1C2D65AD261BEDB6006CB815 /* TVListTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -757,6 +764,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VZHRF55BUA;
 				INFOPLIST_FILE = TvMazeTests/Info.plist;
@@ -768,6 +776,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jesus.TvMazeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TvMaze.app/TvMaze";
@@ -780,6 +789,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VZHRF55BUA;
 				INFOPLIST_FILE = TvMazeTests/Info.plist;

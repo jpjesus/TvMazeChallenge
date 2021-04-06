@@ -36,7 +36,14 @@ extension TVMazeProvider: TargetType {
     }
     
     var sampleData: Data {
-        return Data()
+        switch self {
+        case .getTvShows:
+            guard let url = Bundle.main.url(forResource: "tvMazeData", withExtension: "json"),
+                let data = try? Data(contentsOf: url) else {
+                    return Data()
+            }
+            return data
+        }
     }
     
     var task: Task {
